@@ -1,0 +1,1 @@
+!function(e){e((function(){e(document).on("submit",".sendy-subscribe-form",(function(){var i=e(this).find(".subscriber-email").val();return console.log(i),valid=-1!=String(i).search(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/),!!valid||(alert("Please enter a valid email address"),!1)}))}))}(jQuery);
